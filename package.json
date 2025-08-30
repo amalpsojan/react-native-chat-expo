@@ -10,7 +10,8 @@
     "lint": "expo lint",
     "prebuild:clean": "expo prebuild --clean",
     "kill:port": "kill -9 $(lsof -t -i:8081)",
-    "postinstall": "patch-package"
+    "git:submodule": "git submodule update --init --recursive",
+    "postinstall": "yarn git:submodule && patch-package"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
