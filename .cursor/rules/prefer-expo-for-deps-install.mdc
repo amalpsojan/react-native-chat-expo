@@ -1,0 +1,14 @@
+---
+description: Always use `npx expo install` for runtime dependencies. Use `yarn add -D` for development dependencies. Avoid `npm install` or `yarn add` directly.
+alwaysApply: false
+---
+Use `npx expo install` for runtime deps.
+
+Use `yarn add [package] -D` for dev deps.
+
+Don’t use `npm install` or `yarn add` directly.
+Use `npx expo install` for runtime deps.
+
+Use `yarn add [package] -D` for dev deps.
+
+Don’t use `npm install` or `yarn add` directly.
