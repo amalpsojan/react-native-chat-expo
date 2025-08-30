@@ -4,7 +4,7 @@
     "strict": true,
     "paths": {
       "@/*": ["./src/*"],
-      "@chat-sdk-ui/*": ["./src/sdk/chat-sdk/*"],
+      "@chat-sdk-ui/*": ["./src/sdk/chat-sdk-ui/*"],
       "@chat-sdk-backend-client/*": ["./src/sdk/chat-sdk-backend-client/*"],
       "@chat-sdk-offline-client/*": ["./src/sdk/chat-sdk-offline/*"]
     }

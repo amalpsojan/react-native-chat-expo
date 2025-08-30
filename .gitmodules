@@ -1,0 +1,6 @@
+[submodule "src/sdk/chat-sdk-ui"]
+	path = src/sdk/chat-sdk-ui
+	url = git@github.com:amalpsojan/react-native-chat-sdk-ui.git
+[submodule "src/sdk/chat-sdk-backend-client"]
+	path = src/sdk/chat-sdk-backend-client
+	url = git@github.com:amalpsojan/react-native-chat-sdk-backend-client.git
